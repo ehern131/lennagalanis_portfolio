@@ -24,14 +24,14 @@ get '/erick' do
 end
 
 # MOLLIE FINANCIAL LEASE MANAGEMENT SYSTEM (LMS)
-get '/molliefinancial' do
-  File.read(File.join('public','molliefinancial.html'))
+get '/socialmeshwork' do
+  File.read(File.join('public','socialmeshwork.html'))
 end
-get '/mollie' do
-  File.read(File.join('public','molliefinancial.html'))
+get '/sm' do
+  File.read(File.join('public','socialmeshwork.html'))
 end
-get '/mf' do
-  File.read(File.join('public','skyfinancial2.html'))
+get '/socialmesh' do
+  File.read(File.join('public','socialmeshwork.html'))
 end
 
 
