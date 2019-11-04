@@ -19,11 +19,11 @@ end
 get '/about' do
   File.read(File.join('public','about.html'))
 end
-get '/erick' do
+get '/lenna' do
   File.read(File.join('public','about.html'))
 end
 
-# MOLLIE FINANCIAL LEASE MANAGEMENT SYSTEM (LMS)
+# Social Meshwork
 get '/socialmeshwork' do
   File.read(File.join('public','socialmeshwork.html'))
 end
@@ -34,54 +34,21 @@ get '/socialmesh' do
   File.read(File.join('public','socialmeshwork.html'))
 end
 
-
-# SKY FINANCIAL MERCHANT PORTAL (MP)
-get '/skyfinancial' do
-  File.read(File.join('public','skyfinancial.html'))
+# Rositas
+get '/rositas' do
+  File.read(File.join('public','rositas.html'))
 end
-get '/skyfinancial2' do
-  File.read(File.join('public','skyfinancial2.html'))
+get '/rosi' do
+  File.read(File.join('public','rositas.html'))
 end
-get '/sky' do
-  File.read(File.join('public','skyfinancial2.html'))
-end
-get '/sf' do
-  File.read(File.join('public','skyfinancial2.html'))
+get '/tacos' do
+  File.read(File.join('public','rositas.html'))
 end
 
 
-# QUALITY CRUISES
-get '/qualitycruises' do
-  File.read(File.join('public','qualitycruises.html'))
-end
-# QUALITY CRUISES
-get '/quality' do
-  File.read(File.join('public','qualitycruises.html'))
-end
-# QUALITY CRUISES
-get '/cruises' do
-  File.read(File.join('public','qualitycruises.html'))
-end
-# QUALITY CRUISES
-get '/qc' do
-  File.read(File.join('public','qualitycruises.html'))
-end
-# QUALITY CRUISES
-get '/qualitycruises2' do
-  File.read(File.join('public','qualitycruises2.html'))
-end
 
-# MYLEASE
-get '/mylease' do
-  File.read(File.join('public','mylease.html'))
-end
-# MYLEASE
-get '/lease' do
-  File.read(File.join('public','mylease.html'))
-end
-get '/ml' do
-  File.read(File.join('public','skyfinancial2.html'))
-end
+
+
 
 # OTHER
 get '/other' do
