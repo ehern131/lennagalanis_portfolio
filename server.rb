@@ -45,6 +45,17 @@ get '/tacos' do
   File.read(File.join('public','rositas.html'))
 end
 
+# Hive
+get '/thehive' do
+  File.read(File.join('public','thehive.html'))
+end
+get '/hive' do
+  File.read(File.join('public','thehive.html'))
+end
+get '/th' do
+  File.read(File.join('public','thehive.html'))
+end
+
 
 
 
