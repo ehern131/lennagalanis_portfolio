@@ -3,7 +3,7 @@ require 'sinatra'
 
 # WORK INDEX
 get '/' do
-  File.read(File.join('public','index.html'))
+  File.read(File.join('public','construction.html'))
 end
 get '/index' do
   File.read(File.join('public','index.html'))
@@ -57,14 +57,14 @@ get '/th' do
 end
 
 # Connective Tissue
-get '/connectivetissue' do
-  File.read(File.join('public','tissue.html'))
+get '/connective_tissue' do
+  File.read(File.join('public','connective_tissue.html'))
 end
 get '/connective' do
-  File.read(File.join('public','tissue.html'))
+  File.read(File.join('public','connective_tissue.html'))
 end
 get '/tissue' do
-  File.read(File.join('public','tissue.html'))
+  File.read(File.join('public','connective_tissue.html'))
 end
 
 
