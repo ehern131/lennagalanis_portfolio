@@ -56,7 +56,16 @@ get '/th' do
   File.read(File.join('public','thehive.html'))
 end
 
-
+# Connective Tissue
+get '/connectivetissue' do
+  File.read(File.join('public','tissue.html'))
+end
+get '/connective' do
+  File.read(File.join('public','tissue.html'))
+end
+get '/tissue' do
+  File.read(File.join('public','tissue.html'))
+end
 
 
 
