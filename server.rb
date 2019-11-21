@@ -58,16 +58,16 @@ end
 
 # Austin Courthouse
 get '/courthouse' do
-  File.read(File.join('public','austin_courthouse.html'))
+  File.read(File.join('public','courthouse.html'))
 end
 get '/ch' do
-  File.read(File.join('public','austin_courthouse.html'))
+  File.read(File.join('public','courthouse.html'))
 end
 get '/austincourt' do
-  File.read(File.join('public','austin_courthouse.html'))
+  File.read(File.join('public','courthouse.html'))
 end
 get '/austincourthouse' do
-  File.read(File.join('public','austin_courthouse.html'))
+  File.read(File.join('public','courthouse.html'))
 end
 
 # Axial
@@ -91,19 +91,19 @@ end
 
 # Goya Bridge
 get '/goyabridge' do
-  File.read(File.join('public','goya_bridge.html'))
+  File.read(File.join('public','goyabridge.html'))
 end
 get '/thegoyabridge' do
-  File.read(File.join('public','goya_bridge.html'))
+  File.read(File.join('public','goyabridge.html'))
 end
 get '/gb' do
-  File.read(File.join('public','goya_bridge.html'))
+  File.read(File.join('public','goyabridge.html'))
 end
 get '/thebridge' do
-  File.read(File.join('public','goya_bridge.html'))
+  File.read(File.join('public','goyabridge.html'))
 end
 get '/goya' do
-  File.read(File.join('public','goya_bridge.html'))
+  File.read(File.join('public','goyabridge.html'))
 end
 
 
