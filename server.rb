@@ -109,19 +109,30 @@ end
 
 # SUPPORT SERVICE GROUP
 get '/supportservice' do
-  File.read(File.join('public','support_service_group.html'))
+  File.read(File.join('public','ssg.html'))
 end
 get '/ssg' do
-  File.read(File.join('public','support_service_group.html'))
+  File.read(File.join('public','ssg.html'))
 end
 get '/servicegroup' do
-  File.read(File.join('public','support_service_group.html'))
+  File.read(File.join('public','ssg.html'))
 end
 get '/supportservicegroup' do
-  File.read(File.join('public','support_service_group.html'))
+  File.read(File.join('public','ssg.html'))
 end
 get '/supportgroup' do
-  File.read(File.join('public','support_service_group.html'))
+  File.read(File.join('public','ssg.html'))
+end
+
+# THE VEIN
+get '/thevein' do
+  File.read(File.join('public','thevein.html'))
+end
+get '/tv' do
+  File.read(File.join('public','thevein.html'))
+end
+get '/vein' do
+  File.read(File.join('public','thevein.html'))
 end
 
 
