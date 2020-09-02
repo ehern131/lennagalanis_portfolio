@@ -23,6 +23,20 @@ get '/lenna' do
   File.read(File.join('public','about.html'))
 end
 
+# Mesa Rim
+get '/mesa_rim' do
+  File.read(File.join('public','mesa_rim.html'))
+end
+get '/mesarim' do
+  File.read(File.join('public','mesa_rim.html'))
+end
+get '/mr' do
+  File.read(File.join('public','mesa_rim.html'))
+end
+get '/mesa' do
+  File.read(File.join('public','mesa_rim.html'))
+end
+
 # Connective Tissue
 get '/connective_tissue' do
   File.read(File.join('public','connective_tissue.html'))
